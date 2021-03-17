@@ -25,4 +25,10 @@ body {
     grid-area: principal;
     height: calc(100vh - 180px);
     background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: #fff;
 }
