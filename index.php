@@ -112,7 +112,7 @@
 </main>
 
 <footer class="rodape">
-  COD3R & ALUNOS © 2021
+  COD3R & ALUNOS © <? = date('Y') ?>
 </footer>
 
 <body>
