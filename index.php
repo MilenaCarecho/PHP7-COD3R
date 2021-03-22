@@ -112,7 +112,7 @@
 </main>
 
 <footer class="rodape">
-  COD3R & ALUNOS © <? = date('Y') ?>
+  COD3R & ALUNOS © <?php date('y'); ?>
 </footer>
 
 <body>
