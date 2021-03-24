@@ -1,6 +1,6 @@
-<div class="titulo">Olá PHP</div>
+<div class="titulo">Ola PHP</div>
 
-<?php 
-    echo 'Olá';
+<?php
+    echo 'Ola ';
     echo 'Mundo!'
 ?>
