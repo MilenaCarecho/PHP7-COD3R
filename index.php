@@ -61,6 +61,11 @@
                                 Op. Aritméticas
                             </a>
                         </li>
+                        </li><li>
+                            <a href="exercicio.php?dir=tipos&file=desafio_precedencia">
+                                Desafio precedencia
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
