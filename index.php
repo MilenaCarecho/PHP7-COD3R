@@ -56,14 +56,21 @@
                             <a href="exercicio.php?dir=tipos&file=float">
                                 Tipo Float
                             </a>
-                        </li><li>
+                        </li>
+                        <li>
                             <a href="exercicio.php?dir=tipos&file=aritmeticas">
                                 Op. Aritméticas
                             </a>
                         </li>
-                        </li><li>
+                        </li>
+                        <li>
                             <a href="exercicio.php?dir=tipos&file=desafio_precedencia">
-                                Desafio precedencia
+                                Desafio precedência
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=string">
+                                Tipo String
                             </a>
                         </li>
                     </ul>
