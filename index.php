@@ -83,6 +83,26 @@
                                 Tipo Boleano
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=tipos&file=conversao">
+                                Conversão
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                    <div class="modulo azul">
+                    <h3>Variaveis</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=basico">
+                                Variáveis
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=desafio_equacao">
+                                Equação
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
