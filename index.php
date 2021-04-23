@@ -128,8 +128,23 @@
                                 Valor vs Referência 
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=variaveis&file=constante">
+                                Constantes 
+                            </a>
+                        </li>
                     </ul>
                 </div>
+                <div class="modulo roxo">
+                    <h3>Estruturas de Controle</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=estrutura_controle&file=if_else">
+                                If Else 
+                            </a>
+                        </li>
+                    </ul>
+                </div>    
             </nav>
         </div>
     </main>

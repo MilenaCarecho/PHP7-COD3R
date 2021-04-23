@@ -12,4 +12,8 @@ $variavelValor = 'novo valor';
 echo "<br>$variavel";
 echo "<br>$variavelValor";
 
-// Atribuição por Valor
+// Atribuição por Referencia 
+$variavelReferencia = &$variavel;
+$variavelReferencia = 'mesma referencia';
+
+echo "<br>$variavel $variavelReferencia";
