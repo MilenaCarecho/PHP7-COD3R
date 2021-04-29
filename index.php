@@ -24,12 +24,17 @@
                         </li>
                         <li>
                             <a href="exercicio.php?dir=estrutura_controle&file=operadores_relacionais">
-                                Operadores Relacionais 
+                                Op. Relacionais 
                             </a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=estrutura_controle&file=desafio_pi">
                                 Desafio PI 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=estrutura_controle&file=operadores_logicos">
+                                Op. logicos 
                             </a>
                         </li>
                     </ul>
