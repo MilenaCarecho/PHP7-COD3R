@@ -37,6 +37,11 @@
                                 Op. logicos 
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=estrutura_controle&file=desafio_operadores_logicos">
+                                Desafio Op. logicos 
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul">
