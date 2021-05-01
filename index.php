@@ -42,6 +42,16 @@
                                 Desafio Op. logicos 
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=estrutura_controle&file=operador_ternario">
+                                Op. Ternario 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=estrutura_controle&file=switch">
+                                Switch 
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul">
