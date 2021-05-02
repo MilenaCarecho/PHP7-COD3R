@@ -15,7 +15,7 @@ switch (strtolower($categoria)){
         break
     case 'sedan':
         $carro = 'Etios';
-        $preçoo = 55000;
+        $preco = 55000;
         break;
     default:
         $carro = 'Mobi';
