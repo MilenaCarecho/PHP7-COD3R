@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
@@ -14,6 +14,32 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+                <div class="modulo laranja">
+                    <h3>5. Array</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=basico">
+                                Array
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=mapa">
+                                Mapa
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_index">
+                                Desafio Index
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=array&file=desafio_meses">
+                                Desafio meses
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                    
                 <div class="modulo roxo">
                     <h3>4. Estruturas de Controle</h3>
                     <ul>
@@ -50,6 +76,11 @@
                         <li>
                             <a href="exercicio.php?dir=estrutura_controle&file=switch">
                                 Switch 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=estrutura_controle&file=desafio_switch">
+                                Desafio Switch 
                             </a>
                         </li>
                     </ul>
@@ -121,7 +152,7 @@
                         <li>
                             <a href="exercicio.php?dir=tipos&file=desafio_precedencia">
                                 Desafio precedência
-                            </a>
+                        </a>
                         </li>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=string">
@@ -178,8 +209,8 @@
             </nav>
         </div>
     </main>
-    <footer class="rodape">
-        COD3R & ALUNOS © <?= date('Y'); ?>
-    </footer>
+<footer class="rodape">
+    COD3R & ALUNOS © <?= date('Y'); ?>
+</footer>
 </body>
 </html>
