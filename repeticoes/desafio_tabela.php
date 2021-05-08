@@ -1,4 +1,4 @@
-<div class="titulo">Desafio tabela</div>
+<div class="titulo">Desafio tabela #01</div>
 
 <?php
 $matriz = [
@@ -15,28 +15,32 @@ foreach ($matriz as $linha){
     echo '<br>';
 }
 ?>
-
 <table>
-    <tr>
-        <td><?php echo "$linha[0]" ?></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>01</th>
-        <th>Lastname</th>
-        <th>Age</th>
-    </tr>
-    <tr>
-        <th>01</th>
-        <th>Lastname</th>
-        <th>Age</th>
-    </tr>
+    <?php 
+        foreach ($matriz as $linha) {
+            echo "<tr>";
+            foreach($linha as $valor){
+                echo "<td>$valor</td>";
+            }
+            echo "</tr>";
+        }
+    ?>
 </table>
 
-<style>
+<table>
+    <?php
+        foreach ($matriz as $index => $linha) {
+            $style = $index % 2 === 0 ? 'background-color: lightblue;' : '';
+            echo "<tr  style='{$style}'>";
+            foreach($linha as $valor){
+                echo "<td>$valor</td>";
+            }
+            echo "</tr>";
+        }
+    ?>
+</table>
+
+<style> 
     table {
         border: 1px solid #444;
         border-collapse: collapse;
