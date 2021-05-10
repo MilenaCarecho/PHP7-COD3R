@@ -1,15 +1,33 @@
 <div class="titulo">Desafio Tabela #02</div>
 
-<form action="#" method="post">
-    <input type="text" name="nome" placeholder="linhas">
-    <input type="text" name="sobrenome" placeholder="colunas">
-    <button>Enviar</button>
+<div> Gerador de tabela</div>
+<form action="#" method="POST">
+    <input type="number" name="linhas" id="linhas" placeholder="linhas">
+    <input type="number" name="colunas" id="colunas" placeholder="colunas">
+    <button>Gerar tabela</button>
 </form>
 
-
+<table>
 <?php
-?>
 
+    $linhas = intval($_POST['linhas']);
+    $colunas = intval($_POST['colunas']);
+
+    if(!$linhas) $linhas = 3;
+    if(!$colunas) $colunas = 3;
+
+    $num = 1;
+    for ($i=0; $i < $linhas ; $i++) { 
+            echo "<tr>";
+            for ($j=0; $j < $colunas ; $j++) { 
+                echo "<td>$num</td>";
+                $num++;
+            }
+            echo "</tr>";
+    }
+
+?>
+</table>
 <style> 
     table {
         border: 1px solid #444;
