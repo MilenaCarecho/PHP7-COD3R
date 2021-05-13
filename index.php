@@ -37,6 +37,13 @@
                             </a>
                         </li>
                     </ul>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=args_variaveis">
+                               Args. variaveis
+                            </a>
+                        </li>
+                    </ul>
             </div>
                 <div class="modulo verde-escuro">
                     <h3>6. Repetições</h3>
