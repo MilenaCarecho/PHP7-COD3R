@@ -22,25 +22,34 @@
                                Função & escopo
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=funcoes&file=args_retorno">
                                Args & retorno
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=funcoes&file=desafio_palindromo">
                                Desafio Palindromo
                             </a>
                         </li>
-                    </ul>
-                    <ul>
                         <li>
                             <a href="exercicio.php?dir=funcoes&file=args_variaveis">
                                Args. variaveis
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=args_padrao">
+                               Args. padrão
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=usando_tipos">
+                               Usando tipos
+                            </a>
+                        </li>                 
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=funcoes_anonimas">
+                               Funções anonimas
                             </a>
                         </li>
                     </ul>

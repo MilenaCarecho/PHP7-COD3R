@@ -16,7 +16,22 @@ function somaCompleta(...$numero){
     return $soma;
 }
 
-echo somaCompleta(1, 2, 3 , 4, 5); = [6,7,8]
+echo somaCompleta(1, 2, 3, 4, 5); 
 
+$array = [6,7,8];
+echo '<br>' . somaCompleta(...$array);
 
-$array = [6,7,8]
+function membros($titular, ...$dependentes){
+    echo "Titular: $titular <br>";
+    if ($dependentes){
+        foreach ($dependentes as $dep){
+            echo "Dependente: $dep <br>";
+        }
+    }
+}
+
+echo '<br>';
+membros("Ana Silva", "Pedro", "Rafaela", "Amanda");
+
+echo '<br>';
+membros("Roberto", "Junior");
