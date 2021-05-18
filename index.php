@@ -52,6 +52,11 @@
                                Funções anonimas
                             </a>
                         </li>
+                        <li>
+                            <a href="exercicio.php?dir=funcoes&file=closure_callable">
+                               Closure e Callable
+                            </a>
+                        </li>
                     </ul>
             </div>
                 <div class="modulo verde-escuro">
